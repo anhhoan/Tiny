@@ -1,0 +1,31 @@
+// domain
+export const DOMAIN = "http://localhost:3001/item/";
+export const LIMIT = 3;
+
+// HTTP method 
+export const HTTP_READ = "GET"
+export const HTTP_CREATE = "POST"
+export const HTTP_UPDATE = "PUT"
+export const HTTP_DELETE = "DELETE"
+
+// HTTP headers
+export const HTTP_HEADER_JSON = {"Content-Type": "Application/json"}
+
+// types of actions
+export const GET_STUDENT_REQUEST='GET_STUDENT_REQUEST'
+export const GET_STUDENT_SUCCESS='GET_STUDENT_SUCCESS'
+export const GET_STUDENT_FAILURE='GET_STUDENT_FAILURE'
+
+export const ADD_STUDENT_REQUEST='ADD_STUDENT_REQUEST'
+export const ADD_STUDENT_SUCCESS='ADD_STUDENT_SUCCESS'
+export const ADD_STUDENT_FAILURE='ADD_STUDENT_FAILURE'
+
+
+export const DELETE_STUDENT_REQUEST='DELETE_STUDENT_REQUEST'
+export const DELETE_STUDENT_SUCCESS='DELETE_STUDENT_SUCCESS'
+export const DELETE_STUDENT_FAILURE='DELETE_STUDENT_FAILURE'
+
+export const UPDATE_STUDENT_REQUEST='UPDATE_STUDENT_REQUEST'
+export const UPDATE_STUDENT_SUCCESS='UPDATE_STUDENT_SUCCESS'
+export const UPDATE_STUDENT_FAILURE='UPDATE_STUDENT_FAILURE'
+
